@@ -26,6 +26,10 @@ password: admin123
 
 After submitting the form------------> go to ecllipse and refresh the project and dbImages folder for image retreiving from mysql.
 
+---------------------------------------------------------------------------------------------------------
+
+You can search anime name and genre's in the search field. And the spelling should be correct.
+
 That's all... Now we're good to go!.
 
 -------------------------------------
