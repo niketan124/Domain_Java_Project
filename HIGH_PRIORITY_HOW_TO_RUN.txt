@@ -1,0 +1,35 @@
+---------------------------------------------> Part 1 <--------------------------------------
+
+After extracting the project in AnimeAdd.java file which present in com.anime.add package,
+
+In 72th line paste the correct path of dbImages folder in that string.
+
+Let's see:
+
+For me->
+
+String uploadPath = "C:/Users/AD35995/training/DomainProject/AnimeRcmd/src/main/webapp/dbImages/"+ imageFileName;
+
+
+
+For you -> the dbImages folder path may be different, so pls paste the correct path.
+
+If we didn't do this... the images will not display in index.jsp.
+
+
+----------------------------------------------> Part 2 <-------------------------------------------
+
+****The admin page credintials are:
+
+email: admin@gmail.com
+password: admin123
+
+After submitting the form------------> go to ecllipse and refresh the project and dbImages folder for image retreiving from mysql.
+
+That's all... Now we're good to go!.
+
+-------------------------------------
+
+Thank You.
+
+

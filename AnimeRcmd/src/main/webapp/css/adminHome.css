@@ -1,0 +1,107 @@
+body {
+	background-color: #000000;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.title {
+	width: max-content;
+	padding: 35px;
+	background-color: #2B2E4A;
+	margin-bottom: 0;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.title:hover {
+	transform: scale(1.2);
+	transition: transform 250ms ease-in-out;
+}
+
+.container {
+	margin-top: 0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.main {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	color: #fff;
+}
+
+
+
+.form-main {
+	margin-top: 0;
+	width: 600px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+
+form {
+	width: 600px;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #293462;
+	border-radius: 15px;
+
+}
+
+
+form input {
+	margin: 25px;
+}
+
+input {
+	width: 500px;
+	border: none;
+	border-radius: 15px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #000;
+	padding: 20px 15px;
+	outline: none;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	border-radius: 15px;
+	padding: 20px 15px;
+	background-color: #FC5185;
+	width: 300px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+.imfile {
+	width: 450px;
+}
+
+button:hover {
+	background-color: #FFD95A;
+	transform: scale(1.08);
+	transition: transform 250ms ease-in-out;
+}
